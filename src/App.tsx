@@ -49,4 +49,4 @@ const WeatherApp: React.FC = () => {
     )
 }
 
-export default WeatherApp
+export default WeatherApp;
