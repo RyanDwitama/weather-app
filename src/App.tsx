@@ -30,7 +30,7 @@ const WeatherApp: React.FC = () => {
                 setNewCityName("Invalid country");
             }
         } catch (error) {
-            console.error("Something went wrong: ", error);
+            console.error("Something went wrong:", error);
         }
     }
 
