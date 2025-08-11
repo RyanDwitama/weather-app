@@ -26,7 +26,7 @@ const WeatherCard: React.FC<{ weatherData: any, cityName: string, handleCityName
             {weatherData ? (
                 <div key={weatherData.id} className="text-center">
                     <img src={weatherPicker[weatherData.weather[0].main]} alt={weatherData.weather[0].description} className="w-[100px] mx-auto" />
-                    {weatherData.main.temp.toFixed(0)}<sup>o</sup>Celc
+                    {weatherData.main.temp.toFixed(0)}<sup>o</sup>Ce
 
                     <div className="flex flex-row justify-center items-center gap-2 my-15">
                         <input type="text" placeholder="Search other country..." className="border-1 p-2 rounded-full" onChange={e => handleCityName(e.target.value)} value={cityName} />
